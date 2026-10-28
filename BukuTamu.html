@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Buku Tamu - Website Vian</title>
+</head>
+
+<body>
+
+    <main>
+        <h1 align="center">Buku Tamu</h1>
+
+        <!-- Tabel pembungkus agar form dan semua tulisan berada di tengah -->
+        <table align="center" width="50%" border="0" cellpadding="0" cellspacing="0">
+            <tr>
+                <td align="center">
+                    <form action="mailto:arcvianbayukrisnatyosija@gmail.com" method="post" enctype="text/plain">
+                        <fieldset>
+                            <legend align="center">Isi Buku Tamu</legend>
+
+                            <p align="center">
+                                <label for="nama">Nama</label><br>
+                                <input type="text" id="nama" name="nama" size="30" maxlength="50"
+                                       placeholder="Masukkan nama kamu" required autocomplete="name">
+                            </p>
+
+                            <p align="center">
+                                <label for="email">Email</label><br>
+                                <input type="email" id="email" name="email" size="30" maxlength="80"
+                                       placeholder="contoh@email.com" required autocomplete="email">
+                            </p>
+
+                            <fieldset>
+                                <legend align="center">Jenis Kelamin</legend>
+                                <p align="center">
+                                    <input type="radio" id="pria" name="kelamin" value="Pria" required>
+                                    <label for="pria">Pria</label>
+
+                                    <input type="radio" id="wanita" name="kelamin" value="Wanita">
+                                    <label for="wanita">Wanita</label>
+                                </p>
+                            </fieldset>
+
+                            <p align="center">
+                                <label for="pesan">Pesan</label><br>
+                                <textarea id="pesan" name="pesan" rows="5" cols="40" maxlength="500"
+                                          placeholder="Tulis pesan atau saran untuk website ini (maks. 500 karakter)"
+                                          required></textarea>
+                            </p>
+
+                            <p align="center">
+                                <input type="submit" value="Kirim">
+                                <input type="reset" value="Reset">
+                            </p>
+                        </fieldset>
+                    </form>
+                </td>
+            </tr>
+        </table>
+
+        <hr width="80%">
+
+        <p align="center">
+            <strong>Selalu dibutuhkan waktu untuk saling mengenal dan berkembang.</strong><br>
+            Maka dari itu, berikan saya saran agar website ini bisa lebih berkembang.
+            Apabila ada yang kurang atau salah, mohon dimaafkan. Have a good day 😊
+        </p>
+    </main>
+
+</body>
+
+</html>
